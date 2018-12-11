@@ -1,0 +1,190 @@
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+
+}
+
+.col-md-2{
+  background-color: black;
+  
+}
+
+.row{
+    height: 100%;
+    width: auto;
+}
+
+.side-nav{
+  
+}
+
+
+.col-md-9{
+  position: relative;
+  padding: 0; 
+  margin:0; 
+  background-color: #000000;
+
+}
+
+
+.secondgrid-text{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    color: white;
+     position: absolute;
+   
+   
+}
+.secondgrid-photo img{
+   
+   opacity: 0.6;
+ 	display: block;
+ max-width:47%;
+ position: absolute;
+ 
+}
+
+#menu-outer {
+    height: 84px;
+}
+
+
+
+.col-md-1{
+ 
+  background-color: black;
+}
+
+
+.table{
+  padding-top: 75px;
+  position: relative;
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+}
+
+.horizontal-list ul{
+	   margin-left: 145px;
+    
+   
+    list-style: none;
+   
+    word-spacing: 230px;
+    }
+.horizontal-list ul li{
+        display: inline;
+
+    }
+.horizontal-list ul li a{
+ 
+  color:  #00245D;
+    text-decoration: none;
+   font-family: 'Oswald', sans-serif;
+   font-size: 18px;
+}
+
+.horizontal-list ul li a:hover{
+  color: white;
+}
+
+.dot {
+    margin-left: 5px;
+    height: 6px;
+    width: 6px;
+    background-color: pink;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.home-text{
+    
+ 
+    color: white;
+   font-family: 'glacial_indifferenceregular', sans-serif;
+}
+
+.home-text ul li{
+    text-decoration: none;
+}
+
+.home-text p{
+  margin-left: 185px;
+	  width: 600px;
+   text-align: justify;
+  margin-top: : 15px;
+  font-size: 16px;
+}
+
+.home-text h3{
+  color: WHITE;
+  margin-left: 185px;
+}
+
+.social-icon{
+  margin-bottom: 30px;
+  margin-left: 175px;
+}
+.fa-stack{
+  color: #00245D;
+}
+.fa fa-twitter fa-stack-1x fa-inverse {
+  color:white ;
+}
+
+#spin {
+  margin-left: 185px;
+   color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+#spin:after {
+  content:"";
+  animation: spin 15s linear infinite;
+}
+@keyframes spin {
+  0% { content:"Hello!"; }
+  10% { content:"Kumusta!"; }
+  20% { content:"你好!"; }
+  30% { content:"Hello!"; }
+  40% { content:"Kumusta!"; }
+  50% { content:"你好!"; }
+  60% { content:"Hello!"; }
+  70% { content:"Kumusta!"; }
+  80% { content:"你好!"; }
+  90% { content:"Hello!"; }
+  100% { content:"Kumusta!"; }
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+
